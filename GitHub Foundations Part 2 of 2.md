@@ -519,4 +519,45 @@ Identitas terpusat, autentikasi kuat, dan izin granular menjadikan GitHub aman, 
 
 ---
 
+## 🔐 Autentikasi Pengguna di GitHub
+
+### Metode Autentikasi Utama
+
+**SAML SSO**
+- Login terpusat melalui IdP (Entra ID, Okta, dll.)  
+- Dapat diterapkan di level **organization** atau **enterprise**  
+- Cocok untuk kontrol akses dan kepatuhan perusahaan  
+
+**Two-Factor Authentication (2FA)**
+- Verifikasi tambahan selain password  
+- Wajib untuk meningkatkan keamanan akun  
+- Pengguna tanpa 2FA dapat kehilangan akses  
+
+---
+
+### Perbedaan Cakupan SAML SSO
+- **Organization-level** → Terbatas per organisasi, cocok untuk uji coba  
+- **Enterprise-level** → Berlaku ke semua organisasi, kebijakan konsisten  
+
+---
+
+### Metode 2FA
+- **Kunci keamanan (FIDO2/U2F)** → Paling aman  
+- **Aplikasi TOTP** → Direkomendasikan  
+- **SMS** → Paling lemah (opsi terakhir)  
+
+---
+
+### Audit & Kepatuhan
+- Admin dapat memfilter pengguna tanpa 2FA  
+- Disarankan komunikasi sebelum penegakan agar tidak kehilangan akses  
+
+---
+
+**Intinya:**  
+SAML SSO dan 2FA memberikan autentikasi yang aman, terpusat, dan patuh untuk lingkungan GitHub Enterprise.
+
+---
+
+
 
