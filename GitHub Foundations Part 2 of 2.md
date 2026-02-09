@@ -559,5 +559,32 @@ SAML SSO dan 2FA memberikan autentikasi yang aman, terpusat, dan patuh untuk lin
 
 ---
 
+## 🔄 Sinkronisasi Tim di GitHub
+
+### Apa itu Sinkronisasi Tim
+Sinkronisasi Tim menyelaraskan **GitHub Teams** dengan grup **IdP** (misalnya Microsoft Entra ID atau Okta) secara otomatis.
+
+---
+
+### Manfaat Utama
+- Onboarding dan offboarding otomatis  
+- Mengurangi pembaruan manual dan skrip  
+- Akses selalu sesuai struktur organisasi  
+
+---
+
+### Syarat
+- **SAML SSO** aktif  
+- **SCIM** dikonfigurasi di IdP  
+
+---
+
+### Sinkronisasi Tim vs SCIM
+
+- **Sinkronisasi Tim**  
+  → Menyinkronkan keanggotaan tim saja *(pengguna sudah harus ada di organisasi)*  
+
+
+
 
 
