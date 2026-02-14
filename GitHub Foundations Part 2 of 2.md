@@ -584,6 +584,65 @@ Sinkronisasi Tim menyelaraskan **GitHub Teams** dengan grup **IdP** (misalnya Mi
 - **Sinkronisasi Tim**  
   → Menyinkronkan keanggotaan tim saja *(pengguna sudah harus ada di organisasi)*  
 
+---
+
+## 🔁 Pull Request (PR) di GitHub
+
+### 1️⃣ Branch
+- Ruang kerja terpisah untuk fitur atau bugfix  
+- Aman untuk eksperimen tanpa mengganggu `main`  
+- Perubahan disimpan sebagai commit  
+
+---
+
+### 2️⃣ Apa itu Pull Request?
+Pull Request (PR) adalah permintaan untuk menggabungkan perubahan dari:
+
+- **Compare branch** → cabang pengembang  
+- **Base branch** → cabang tujuan (biasanya `main`)  
+
+PR memungkinkan:
+- Review kode  
+- Diskusi perubahan  
+- Pemeriksaan otomatis (CI)  
+- Kontrol kualitas sebelum *merge*  
+
+---
+
+### 3️⃣ Status Pull Request
+- **Draft** → Belum siap direview  
+- **Open** → Aktif dan bisa direview  
+- **Closed** → Ditutup tanpa merge  
+- **Merged** → Perubahan sudah digabung  
+
+---
+
+### 4️⃣ Cara Merge PR
+- **Merge commit** → Gabungkan semua commit apa adanya  
+- **Squash & merge** → Satukan menjadi satu commit  
+- **Rebase & merge** → Riwayat tetap linear  
+
+---
+
+### 5️⃣ Fitur Lanjutan
+- **Request reviewers** → Meminta review tertentu  
+- **Branch protection rules** → Wajib review & status check  
+- **Status checks / CI** → Test, lint, security scan otomatis  
+- **Draft PR** → Untuk pekerjaan yang masih berlangsung  
+
+---
+
+### 6️⃣ Tips Produktivitas
+- ⭐ *Star* repositori untuk bookmark  
+- `?` → Lihat shortcut keyboard  
+- `Ctrl + K` / `⌘ + K` → Buka Command Palette  
+
+---
+
+**Intinya:**  
+Pull Request adalah pusat kolaborasi di GitHub untuk memastikan perubahan ditinjau, diuji, dan dikontrol sebelum digabung.
+
+---
 
 
 
