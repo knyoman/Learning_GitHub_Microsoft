@@ -639,10 +639,32 @@ PR memungkinkan:
 
 ---
 
-**Intinya:**  
-Pull Request adalah pusat kolaborasi di GitHub untuk memastikan perubahan ditinjau, diuji, dan dikontrol sebelum digabung.
+## 🔎 Fitur Navigasi & Kolaborasi GitHub
+
+**Search**
+- Global → cari di seluruh GitHub  
+- Konteks → cari dalam satu repo (filter: `is:issue`, `is:pr`, `label:`, `assignee:`)
+
+**Label & Milestone**
+- Label → kategori (bug, enhancement, dll.)  
+- Milestone → target Sprint/Release + progres otomatis  
+
+**Git Blame**
+- Menunjukkan siapa & kapan baris kode diubah  
+
+**Cross-Linking**
+- `#123` → otomatis link ke issue/PR  
+- Commit ID juga otomatis terhubung  
+
+**Saved Replies & Templates**
+- Balasan cepat & form issue terstruktur  
+
+**Assignee & @mention**
+- Tandai penanggung jawab & undang diskusi  
 
 ---
+
+
 
 
 
