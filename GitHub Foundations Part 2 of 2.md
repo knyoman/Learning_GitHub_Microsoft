@@ -664,6 +664,45 @@ PR memungkinkan:
 
 ---
 
+## 🤖 Menggunakan GitHub Copilot (Python)
+
+### Peran Copilot
+- Menyelesaikan kode otomatis  
+- Menambahkan fitur  
+- Memperbaiki bug  
+- Memberi saran saat pengembangan Python  
+- Copilot Chat untuk tanya jawab interaktif  
+
+---
+
+### 🧠 Prompt Engineering
+Output tergantung kejelasan prompt.
+
+❌ Kurang spesifik  
+`# Create an API endpoint`
+
+✅ Lebih spesifik  
+`# Create a FastAPI POST endpoint that accepts JSON`
+
+➡️ Semakin spesifik prompt, semakin akurat hasilnya.
+
+---
+
+### ⚙ Praktik Terbaik
+- Mulai sederhana, lalu tambahkan detail  
+- Coba beberapa saran (`Ctrl + Enter` / `Cmd + Enter`)  
+- Perbaiki prompt jika hasil kurang sesuai  
+- Manfaatkan konteks file yang sedang dibuka  
+- Gunakan `@workspace` di Copilot Chat untuk konteks luas  
+
+---
+
+**Intinya:**  
+Copilot efektif jika prompt jelas, spesifik, dan memanfaatkan konteks proyek.
+
+---
+
+
 
 
 
