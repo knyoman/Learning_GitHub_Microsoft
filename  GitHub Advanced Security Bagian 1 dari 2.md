@@ -47,3 +47,61 @@ GHAS mencakup:
 GHAS mengintegrasikan keamanan sepanjang SDLC, bukan hanya di tahap akhir.
 
 ---
+
+## 🛡 GHAS – Cara Mendapatkan Dampak Maksimal
+
+### 📦 Dependency Graph
+- Mengidentifikasi dependensi langsung & transitif  
+- Otomatis diperbarui saat commit ke branch default  
+- Dasar untuk fitur supply chain lainnya  
+- Bisa diekspor sebagai SBOM (SPDX)  
+
+Dependency Graph mendukung:
+- **Dependency Review** (cek risiko saat PR)
+- **Dependabot Alerts**
+- **Dependabot Security Updates**
+
+---
+
+### 🔔 Jenis Pemberitahuan GHAS
+
+**Code Scanning**
+- Alert CodeQL (SQL injection, XSS, dll.)
+
+**Secret Scanning**
+- Deteksi API key, token, kredensial bocor
+
+**Dependabot**
+- Alert dependensi rentan
+- PR otomatis untuk update keamanan
+
+**Security Overview**
+- Dashboard ringkasan status keamanan repo
+
+**Third-party tools**
+- Upload hasil scan via SARIF
+
+---
+
+### ⚠ Risiko Mengabaikan Alert
+- Eksploitasi kerentanan
+- Pelanggaran data
+- Kerugian finansial & reputasi
+- Biaya perbaikan lebih tinggi
+
+➡️ Prioritaskan dan perbaiki lebih awal (shift-left).
+
+---
+
+### 👥 Akses ke Pemberitahuan
+
+- **Code scanning & Dependabot** → Role `Write`
+- **Secret scanning** → Role `Admin`
+- Akses bisa diatur melalui pengaturan repo (*Access to alerts*)
+
+---
+
+**Intinya:**  
+Dependency Graph + Alert + Role-based access = keamanan terintegrasi dan terkendali sepanjang SDLC.
+
+---
