@@ -148,3 +148,17 @@ Alert muncul ketika:
 4. Tutup alert jika tidak relevan
 
 ---
+
+## 🤖 Dependabot Security & Version Updates
+
+Dependabot membantu menjaga dependensi proyek tetap **aman dan terbaru** melalui Pull Request otomatis.
+
+### 🔐 Security Updates
+- Membuat **PR otomatis** untuk memperbarui dependensi yang memiliki kerentanan.
+- Menggunakan **Dependency Graph + GitHub Advisory Database**.
+- Menggabungkan PR otomatis akan **menutup Dependabot alert** terkait.
+
+### 🔄 Version Updates
+- Membuat **PR otomatis saat ada versi baru** dari dependensi.
+- Berdasarkan **semantic versioning (MAJOR.MINOR.PATCH)**.
+- Diaktifkan melalui file `.github/dependabot.yml`.
