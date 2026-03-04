@@ -101,7 +101,50 @@ Dependency Graph mendukung:
 
 ---
 
-**Intinya:**  
-Dependency Graph + Alert + Role-based access = keamanan terintegrasi dan terkendali sepanjang SDLC.
+## 📦 Mengelola Dependensi di GitHub
+
+Proyek software sering menggunakan dependensi eksternal yang dapat mengandung kerentanan.  
+GitHub menyediakan beberapa alat untuk mengelola dan mengamankan dependensi.
+
+### 🔧 Alat Utama
+
+**Dependency Graph**
+- Memetakan dependensi langsung & transitif
+- Dibuat dari manifest dan lock files
+- Menjadi dasar fitur keamanan lain
+
+**GitHub Advisory Database**
+- Database kerentanan (CVE, GHSA)
+- Memberi informasi tingkat keparahan (CVSS)
+
+**SBOM (Software Bill of Materials)**
+- Daftar semua dependensi proyek
+- Bisa diekspor untuk audit keamanan
+
+**Dependabot**
+- Mendeteksi dependensi rentan
+- Memberi alert keamanan
+- Membuat PR otomatis untuk update
+
+**Dependency Review**
+- Menganalisis perubahan dependensi pada Pull Request
+- Mencegah dependensi rentan masuk ke branch utama
+
+---
+
+## 🚨 Dependabot Alerts
+
+Dependabot memberi tahu jika proyek menggunakan dependensi yang rentan.
+
+Alert muncul ketika:
+- Ada advisori baru di GitHub Advisory Database
+- Dependency Graph berubah
+- PR menambahkan dependensi yang rentan
+
+### Cara Mengatasi Alert
+1. Tinjau detail kerentanan
+2. Merge PR pembaruan Dependabot
+3. Update dependensi secara manual jika perlu
+4. Tutup alert jika tidak relevan
 
 ---
